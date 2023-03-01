@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyGoomba : MonoBehaviour
 {
@@ -44,6 +45,7 @@ public class EnemyGoomba : MonoBehaviour
             Destroy(collision.gameObject);
             soundManager.StopBGM();
             sfxManager.MarioDeath();
+            SceneManager.LoadScene(2);
         }
 
         if(collision.gameObject.tag == "CollisionGoomba")
