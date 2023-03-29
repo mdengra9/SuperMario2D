@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 300}
   m_MaxSize: {x: 32384, y: 24288}
   vertical: 0
-  controlID: 109
+  controlID: 18
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 1
-  controlID: 115
+  controlID: 19
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 146
+  controlID: 20
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -475,7 +475,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 71534
+  m_LastSelectedObjectID: -43620
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -517,21 +517,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\SuperMario2D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 19}
-    m_SelectedIDs: 74930000
-    m_LastClickedID: 37748
+    m_SelectedIDs: 6a930000
+    m_LastClickedID: 37738
     m_ExpandedIDs: 000000006a93000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -588,7 +588,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000260000006600000fe7000000e7100006c7000000492000000000000
+    m_ExpandedInstanceIDs: c62300000260000006600000fe7000000e7100006c7000000492000000000000dc910000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,9 +688,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 884b0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: fac0ffff10c3ffff58c4ffff
+      m_SelectedIDs: 9c55ffff
+      m_LastClickedID: -43620
+      m_ExpandedIDs: 26c3ffff58c4ffff90960000d097000098980000fa9c0000c4a50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -961,9 +961,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -87.52042, y: -4.1178226, z: -0.024800885}
+    m_Target: {x: -97.02062, y: -0.87172455, z: -0.054299116}
     speed: 2
-    m_Value: {x: -87.52042, y: -4.1178226, z: -0.024800885}
+    m_Value: {x: -97.02062, y: -0.87172455, z: -0.054299116}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1014,9 +1014,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 18.29231
+    m_Target: 7.1139703
     speed: 2
-    m_Value: 18.29231
+    m_Value: 7.1139703
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1099,7 +1099,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
+    m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -1113,18 +1113,18 @@ MonoBehaviour:
       y: 21
       width: 414
       height: 486
-    m_Scale: {x: 0.22711468, y: 0.22711468}
-    m_Translation: {x: 218.03006, y: 243}
+    m_Scale: {x: 0.215625, y: 0.215625}
+    m_Translation: {x: 207, y: 243.00002}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -959.9999
-      y: -1069.9441
-      width: 1822.8677
-      height: 2139.8882
+      x: -960
+      y: -1126.9565
+      width: 1920
+      height: 2253.913
     m_MinimalGUI: 1
   m_defaultScale: 0.215625
   m_LastWindowPixelSize: {x: 414, y: 507}
