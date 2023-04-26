@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public float powerUpDuration = 5;
     public float powerUpTimer = 0;
 
+    public List<GameObject> enemiesInScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         ShootPowerUp();
+
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            KillAllEnemies();
+        }
     }
 
     void ShootPowerUp()
@@ -34,6 +41,14 @@ public class GameManager : MonoBehaviour
             powerUpTimer = 0;
            }
            
+        }
+    }
+
+    void KillAllEnemies()
+    {
+        for (int i = 0; i < enemiesInScreen.Count; i++)
+        {
+            Destroy(enemiesInScreen[i]);
         }
     }
 }

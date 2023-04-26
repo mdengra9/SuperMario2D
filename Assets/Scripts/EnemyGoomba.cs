@@ -12,6 +12,7 @@ public class EnemyGoomba : MonoBehaviour
     Rigidbody2D rBody;
     SFXManager sfxManager;
     SoundManager soundManager;
+    GameManager gameManager;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class EnemyGoomba : MonoBehaviour
         rBody = GetComponent<Rigidbody2D>();
         sfxManager = GameObject.Find("SFXManager").GetComponent<SFXManager>();
         soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -74,5 +76,15 @@ public class EnemyGoomba : MonoBehaviour
                 horizontal = 1;
             }
         }
+    }
+
+    void OnBecameVisible()
+    {
+        gameManager.enemiesInScreen.Add(this.gameObject);
+    }
+
+    void OnBecameInvisible() 
+    {
+        gameManager.enemiesInScreen.Remove(this.gameObject);
     }
 }
